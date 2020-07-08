@@ -1,6 +1,6 @@
 # ghidra-vagrant box
 
-This vagrant configuration creates a virtual machine and installs the prerequisits for the Ghidra reverse engineering toolkit.
+This vagrant configuration creates a virtual machine and installs the prerequisites for the Ghidra reverse engineering toolkit.
 
 The base box can be modified or replaced with an alternative according to your needs.  The installation script currently assumes a Debian-based system, so the provisioning script may need modified depending on package distribution particulars for your Linux.  Just modifify the 'config.vm.box' to be the desired base box for your install.  The provided box is a barebones install of Debian-Buster with the XFCE desktop.  NO additional packages or configuration was performed outside of the basics for Vagrant and VirtualBox Guest Additions. 
 
